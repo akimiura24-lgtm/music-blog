@@ -232,3 +232,6 @@ footer a { color: var(--ink-soft); }
   .topbar { flex-direction: column; gap: 4px; }
   .topbar .pr-note { text-align: left; }
 }
+
+.songlist { list-style: none; margin: 0 0 1.4em; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.songlist li { font-family: var(--serif); font-weight: 700; font-size: 15px; padding: 4px 14px; border: 1px solid var(--rule); border-radius: 999px; background: var(--ground); }
